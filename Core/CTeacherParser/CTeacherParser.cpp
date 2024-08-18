@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include <string>
-
+#include "CParser.h"
 const char* inputFile;
 const char* outputFile;
 
@@ -52,15 +52,13 @@ void parseArgv(int argc, char* argv[], int i)
         outputFile = argv[i + 1];
     }
 }
-#include "CParser.h"
-const std::string testFilePath = "C:\\Users\\Siema\\Desktop\\testowy.txt";
+
 int main(int argc, char* argv[])
 {
 
     for (int i = 1; i < argc; i++)
-    {
         parseArgv(argc, argv, i);
-    }
+    
 
     if (std::string(inputFile).empty()) 
     {
