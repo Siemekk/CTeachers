@@ -1,9 +1,7 @@
-﻿// CTeacherParser.cpp : Ten plik zawiera funkcję „main”. W nim rozpoczyna się i kończy wykonywanie programu.
-//
-
 #include <iostream>
 #include <string>
 #include "CParser.h"
+
 const char* inputFile;
 const char* outputFile;
 
