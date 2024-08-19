@@ -62,6 +62,21 @@ Special .NET app, for interface. Some user's don't know how to use params in .ex
 Small friendly interface, with checkboxes to select with talent you NPC can teach. Of course, this tool have config of 'main' params like NPC, or INSTANCE.
 It's the best tool for newbie scripter of Daedalus Teachers.
 
+Tool Interface:
+
+![alt text](https://i.imgur.com/gWS85Xz.png)
+
+Very easy and readable. Only what user need to do is write unique Dialogue Instance, and NPC name.
+After that select skills and set values ​​of teacher, then click Generate! 
+You'll  see save file dialog. This file is you teacher file .d
+
+This tool using CORE for generate Teacher File. 
+Principle of operation:
+1) .NET APP Creates tmp.zdf file with teacher info 
+2) File is parsed by CORE App 
+3) -o parametr in CORE is, path for output .d file, this file is parsed from input tmp.zdf, created by .NET APP
+4) File tmp.zdf is deleted. Parsing is done.
+This operation is done in the background!
 
 ## DAEDALUS W.I.P
 Package of special scripts for Daedalus. Necessary for using this tool.
