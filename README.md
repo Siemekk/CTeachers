@@ -78,7 +78,7 @@ Principle of operation:
 4) File tmp.zdf is deleted. Parsing is done.
 This operation is done in the background!
 
-## DAEDALUS W.I.P
+## DAEDALUS
 Package of special scripts for Daedalus. Necessary for using this tool.
 Original, scripts have some stupid methods, where you can't easy config params in game (For Balance Example)
 In this package you get special config file, where you can edit some interested values, like Multiplier Cost, Learning thresholds, Names, Languages and a lot of more.
